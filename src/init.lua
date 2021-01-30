@@ -61,3 +61,5 @@ function LightingModule:__updateParent(structure)
     assert(structure.value,"The value of structure:"..structure.className.." is nil. Have you initialised the module yet?")
     structure.value.Parent = structure.enabled and Lighting or script
 end
+
+return LightingModule
