@@ -55,3 +55,4 @@ LightingModule:set_sunRays(dict,enabled)
 It is always a good practice to initialise this module in an independent client script since relatives may interrupt your codes.
 Dict should be a lua-table whose key is the name of the target property.
 
+You can edit this read me by pulling! Feel free to add!
